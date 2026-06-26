@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Cognitive Learning Intelligence Platform (CLIP): Preserving Human Handwriting and Building the AI-Native Future of Learning"
+message: "If you use or reference this work, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Gaur"
+    given-names: "Siddhartha"
+date-released: "2026-06-26"
+license: CC-BY-4.0
+url: "https://github.com/SiddGaur/Cognitive-Learning-Intelligence-Platform"
+abstract: >
+  CLIP is a proposed AI-native learning platform built around Digital Ink Intelligence.
+  Rather than replacing handwriting with typing, CLIP captures every pen stroke as
+  structured digital data in real time, derives twelve multidimensional Learning Signals,
+  generates comprehensive Learning Intelligence Profiles, builds a Learning Intelligence
+  Graph representing each learner's knowledge state, and develops a continuously evolving
+  Learning Twin for every learner. CLIP augments teachers through AI-assisted assessment
+  while keeping human judgment authoritative, and is designed to serve as foundational
+  educational infrastructure for schools, universities, and lifelong learning.
+keywords:
+  - education technology
+  - digital ink
+  - handwriting recognition
+  - learning intelligence
+  - AI in education
+  - formative assessment
+  - learning analytics
+  - digital twin
+  - personalised learning
+  - cognitive learning
+  - edtech
+  - human-AI collaboration
