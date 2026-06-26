@@ -8,6 +8,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20935638.svg)](https://doi.org/10.5281/zenodo.20935638)
+[![Preprint](https://img.shields.io/badge/Preprint-EdArXiv-blue)](https://osf.io/preprints/edarxiv/w45ut)
 [![Status](https://img.shields.io/badge/Status-Vision%20%26%20Architecture%20Specification-blue)]()
 [![Author](https://img.shields.io/badge/Author-Siddhartha%20Gaur-informational)]()
 [![Origin](https://img.shields.io/badge/Origin-June%202026-green)]()

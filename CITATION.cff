@@ -10,6 +10,13 @@ license: CC-BY-4.0
 url: "https://github.com/SiddGaur/Cognitive-Learning-Intelligence-Platform"
 doi: "10.5281/zenodo.20935638"
 repository-code: "https://github.com/SiddGaur/Cognitive-Learning-Intelligence-Platform"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20935638"
+    description: "Zenodo archive"
+  - type: url
+    value: "https://osf.io/preprints/edarxiv/w45ut"
+    description: "EdArXiv preprint"
 abstract: >
   CLIP is a proposed AI-native learning platform built around Digital Ink Intelligence.
   Rather than replacing handwriting with typing, CLIP captures every pen stroke as
