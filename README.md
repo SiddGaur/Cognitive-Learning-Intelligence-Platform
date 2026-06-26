@@ -7,6 +7,7 @@
 **A platform that captures every pen stroke as structured digital data, transforms handwriting into Learning Signals, and builds a lifelong Learning Twin for every learner.**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20935638.svg)](https://doi.org/10.5281/zenodo.20935638)
 [![Status](https://img.shields.io/badge/Status-Vision%20%26%20Architecture%20Specification-blue)]()
 [![Author](https://img.shields.io/badge/Author-Siddhartha%20Gaur-informational)]()
 [![Origin](https://img.shields.io/badge/Origin-June%202026-green)]()
@@ -259,9 +260,8 @@ Feedback and discussion are welcome via GitHub Issues.
 If you reference or build on this work, please cite as:
 
 ```
-Gaur, S. (2026). Cognitive Learning Intelligence Platform (CLIP): Preserving Human
-Handwriting and Building the AI-Native Future of Learning.
-https://github.com/SiddGaur/Cognitive-Learning-Intelligence-Platform
+Gaur, S. (2026). Cognitive Learning Intelligence Platform (CLIP): Every Pen Stroke is a
+Learning Signal. Zenodo. https://doi.org/10.5281/zenodo.20935638
 ```
 
 See also: [CITATION.cff](./CITATION.cff)
