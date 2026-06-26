@@ -1,4 +1,4 @@
-# Cognitive Learning Intelligence Platform (CLIP): Preserving Human Handwriting and Building the AI-Native Future of Learning
+# Cognitive Learning Intelligence Platform (CLIP): Every Pen Stroke is a Learning Signal
 
 **Author:** Siddhartha Gaur
 **Published:** June 2026

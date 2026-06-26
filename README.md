@@ -2,7 +2,7 @@
 
 # Cognitive Learning Intelligence Platform (CLIP)
 
-### Preserving Human Handwriting. Building the AI-Native Future of Learning.
+### Every pen stroke is a learning signal. Guided intelligence, personalised learning, and student wellbeing: from the act of handwriting itself.
 
 **A platform that captures every pen stroke as structured digital data, transforms handwriting into Learning Signals, and builds a lifelong Learning Twin for every learner.**
 
