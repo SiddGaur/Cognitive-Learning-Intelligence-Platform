@@ -2,6 +2,13 @@
 
 **Author:** Siddhartha Gaur
 **Published:** June 2026
+**Version:** 2.0 (Updated July 2026)
+
+---
+
+## What's New in Version 2.0
+
+This version introduces **Assessment Integrity Intelligence** (Section 11), a third pillar alongside Learning Intelligence and Wellbeing Intelligence. It sets out how the same Digital Ink data CLIP already captures for learning and wellbeing also forms a Behavioural Writing Signature: evidence of how a written answer was produced, not just what it says. This strengthens confidence in assessment integrity as generative AI reshapes the risks facing digital examinations, without CLIP performing biometric identity authentication or replacing existing exam security measures such as proctoring and identity verification. The corresponding governance boundary and Guiding Principle are covered in Sections 11.6 and 19.
 
 ---
 
@@ -11,7 +18,7 @@
 
 ## Abstract
 
-Education has successfully digitised content, administration, and communication. Yet the most fundamental act of learning, thinking through handwriting, remains disconnected from the digital ecosystem. Current systems force a difficult choice: paper preserves handwriting and cognitive engagement but is operationally slow, expensive, and analytically opaque; tablets and laptops digitise content but eliminate the cognitive benefits of handwriting. This paper proposes the Cognitive Learning Intelligence Platform (CLIP), an AI-native learning platform built around Digital Ink Intelligence. CLIP captures every pen stroke as structured data in real time, transforms that ink into multidimensional Learning Signals, generates comprehensive Learning Intelligence Profiles, and builds a continuously evolving Learning Twin for every learner. CLIP augments teachers rather than replacing them, and positions handwriting not as a legacy mechanism to be eliminated but as the primary cognitive interface for AI-era education.
+Education has successfully digitised content, administration, and communication. Yet the most fundamental act of learning, thinking through handwriting, remains disconnected from the digital ecosystem. Current systems force a difficult choice: paper preserves handwriting and cognitive engagement but is operationally slow, expensive, and analytically opaque; tablets and laptops digitise content but eliminate the cognitive benefits of handwriting. This paper proposes the Cognitive Learning Intelligence Platform (CLIP), an AI-native learning platform built around Digital Ink Intelligence. CLIP captures every pen stroke as structured data in real time, transforms that ink into multidimensional Learning Signals, generates comprehensive Learning Intelligence Profiles, and builds a continuously evolving Learning Twin for every learner. The same behavioural data also strengthens confidence in assessment integrity as generative AI reshapes the risks facing digital examinations, without CLIP ever claiming to replace identity verification or existing security safeguards. CLIP augments teachers rather than replacing them, and positions handwriting not as a legacy mechanism to be eliminated but as the primary cognitive interface for AI-era education.
 
 ---
 
@@ -239,6 +246,7 @@ CLIP is designed on a clear principle: AI performs the tasks where it excels at 
 | Answer completeness | Assessment of coverage relative to expected content |
 | Confidence estimation | Inference of learner certainty from writing behaviour |
 | Learning Signal generation | Systematic derivation of all thirteen signal dimensions |
+| Behavioural writing signature analysis | Detection of writing behaviour inconsistent with a learner's own baseline |
 
 ### 6.2 What Teachers Do
 
@@ -249,6 +257,7 @@ CLIP is designed on a clear principle: AI performs the tasks where it excels at 
 | Partial credit | Nuanced marking of partially correct responses |
 | Mentoring and guidance | Individual feedback and pastoral support |
 | Contextual exceptions | Handling of circumstances affecting performance |
+| Assessment integrity review | Judgment on any flagged behavioural writing inconsistency |
 | Final approval | Authoritative sign-off on all assessments |
 | Ethical judgment | Decisions involving student welfare and fairness |
 
@@ -396,11 +405,95 @@ Detecting the same shift in Week 2 rather than discovering it in a Week 12 grade
 
 ---
 
-## 11. The Team Around the Child
+## 11. Assessment Integrity Through Behavioural Writing Intelligence
+
+CLIP was designed to transform handwriting into Learning Intelligence by capturing the complete writing process rather than only the final written response (Section 4). The same Digital Ink data also introduces a second capability, distinct from learning or wellbeing: strengthening the integrity of digital assessments.
+
+This capability is best understood as an additional layer built on the existing Digital Ink foundation, not as a claim that CLIP performs biometric identity authentication. Online handwriting dynamics are an active area of behavioural biometrics research, but CLIP does not verify who a student is. It observes whether the writing process behind a given answer is consistent with that student's own established pattern, and leaves the judgment of what any inconsistency means to a human reviewer.
+
+### 11.1 The Problem Digital Ink Did Not Originally Set Out to Solve
+
+Traditional computer-based examinations evaluate the final submitted answer. The process by which that answer was produced is largely invisible. As generative AI systems become increasingly capable, this invisibility creates a new risk: an assessment system with no mechanism for distinguishing a student's own reasoning from text produced elsewhere and typed or transcribed in.
+
+Digital Ink changes this by construction. Because CLIP already records the complete stroke-by-stroke writing process for Learning Intelligence and Wellbeing Intelligence, it also, as a by-product of the same data, captures evidence of how a written answer came to exist.
+
+### 11.2 From Final Answer to Writing Journey
+
+A typed or scanned-only assessment preserves just the endpoint:
+
+```
+Student
+  ↓
+Typed Answer
+  ↓
+Final Submission
+```
+
+All intermediate cognitive and motor behaviour is lost. A Digital Ink assessment preserves the journey that produced the endpoint:
+
+```
+Student
+  ↓
+Digital Ink
+  ↓
+Continuous Stroke Stream
+  ↓
+Behavioural Writing Signals
+  ↓
+Final Written Response
+```
+
+The assessment record therefore contains not only the answer, but evidence of how that answer was produced.
+
+### 11.3 The Behavioural Writing Signature
+
+The Digital Ink data points already defined in Section 4.1 (stroke sequence, pressure, timing, velocity, pen angle, pauses, and correction gestures) combine into what CLIP terms a **Behavioural Writing Signature**: the distinctive rhythm and formation pattern of a learner's own writing process for a given assessment, compared against that same learner's established baseline rather than against any population norm. This mirrors the baseline-relative approach already used for the Wellbeing Signal (Section 10.1).
+
+### 11.4 Process Verification, Not Just Answer Verification
+
+Digital Ink does not replace identity verification, secure browsers, or remote proctoring, and CLIP makes no claim to do so. What it contributes is a layer of behavioural evidence that has historically been unavailable in digital examinations. Because the writing process itself is continuously recorded, substituting an externally generated answer becomes harder to do without introducing inconsistencies in the underlying behavioural data.
+
+This is a shift in what assessment systems can examine: from relying solely on the final submitted response, to having access to the sequence of writing events that produced it. Answer verification asks whether the response is correct. Process verification asks whether the response is consistent with how this learner writes.
+
+### 11.5 Behavioural Writing Intelligence
+
+CLIP defines **Behavioural Writing Intelligence** as the continuous interpretation of handwriting dynamics to understand both learning behaviour and assessment integrity. Unlike static handwriting recognition, it analyses the temporal evolution of writing: movement patterns, hesitation, revision behaviour, writing fluency, and stroke dynamics.
+
+These signals can support:
+
+- Increased confidence in assessment authorship
+- Detection of writing behaviour that departs from a learner's own baseline during an examination
+- Evidence-based assessment audits
+- Improved integrity of remote digital examinations
+- Research into writing behaviour across different learner populations
+
+These signals complement existing examination security mechanisms. They do not replace them.
+
+### 11.6 Governance Boundary: Flag Inconsistency, Never Accuse
+
+This capability follows the same governance principle CLIP already applies to wellbeing (Section 10.3): **the signal flags an inconsistency; it does not accuse.**
+
+CLIP does not fail a submission, and it does not label a student as dishonest. It produces something narrower and more useful: a notification that the behavioural writing data for a specific response is inconsistent with that learner's own established pattern, delivered to a teacher or invigilator who has context CLIP does not have and who retains final authority, consistent with the governance principle in Section 6.3. As with every other Learning Twin observation, these flags are explainable, auditable, and subject to the same principles set out in Section 9.3 and Section 17.
+
+### 11.7 A Third Pillar
+
+Together with Learning Intelligence (Sections 5 to 9) and Wellbeing Intelligence (Section 10), Assessment Integrity Intelligence forms a third pillar built on the same Digital Ink foundation:
+
+1. **Learning Intelligence:** understanding how students think while learning.
+2. **Wellbeing Intelligence:** identifying early behavioural signals that may indicate disengagement, frustration, or stress requiring teacher attention.
+3. **Assessment Integrity Intelligence:** strengthening confidence in digital assessments by preserving the behavioural evidence of the writing process itself.
+
+Together, these three pillars position handwriting not merely as a medium for recording answers, but as a continuous source of educational, behavioural, and assessment intelligence.
+
+*The answer tells us what a student knows. The writing journey tells us how the answer came to exist.*
+
+---
+
+## 12. The Team Around the Child
 
 Education has always involved three parties: the student, the teacher, and the parent. For most of its history, these three have operated with separate information and no shared record: the teacher knows what happened in class, the parent knows what happened at home, and the student is often left interpreting a mark without the context either adult holds. CLIP is built on the premise that this gap is not fixed by better communication alone. It is fixed by giving all three parties a shared, evidence-based picture of the same learner.
 
-### 11.1 One Profile, Three Views
+### 12.1 One Profile, Three Views
 
 The Learning Intelligence Profile (Section 7) and the Learning Twin (Section 9) are not built separately for each audience. They are a single underlying model of the learner, surfaced differently depending on who is looking:
 
@@ -410,26 +503,26 @@ The Learning Intelligence Profile (Section 7) and the Learning Twin (Section 9) 
 | **Teacher** | The signal arrives before the silence does. Instead of finding a struggling student in a grade report months later, the teacher receives an early, evidence-based prompt that something has shifted, with the concept map and signal history already assembled. The pastoral relationship becomes proactive rather than reactive. |
 | **Parent** | The quarterly report card is replaced by a readable, continuously updated map of how their child is learning and where they need support, rather than a number that requires interpretation. A parent-teacher conversation can start from shared evidence rather than from a guardian asking "how is my child doing?" with no data of their own. |
 
-### 11.2 Why a Shared Picture Changes the Relationship, Not Just the Data
+### 12.2 Why a Shared Picture Changes the Relationship, Not Just the Data
 
 Giving three parties access to the same information does not by itself create collaboration. What makes it collaborative is that each party's view is drawn from the same evidence and the same timeline, so a conversation between any two of them starts from agreement about what happened rather than a reconciliation of three separate impressions.
 
 A teacher raising a concern with a parent can point to a specific, dated shift in a specific signal. A parent raising a concern with a teacher can do the same. A student discussing their own progress with either adult is working from the identical profile both adults have seen. This does not replace judgment, conversation, or context, all of which remain human responsibilities, but it removes the information asymmetry that has historically made those conversations start from scratch.
 
-### 11.3 Access, Consent, and Boundaries
+### 12.3 Access, Consent, and Boundaries
 
-The Team Around the Child operates within the same governance framework as the rest of CLIP (Sections 9.3 and 16):
+The Team Around the Child operates within the same governance framework as the rest of CLIP (Sections 9.3 and 17):
 
 - **Guardian access is a right, not a privilege granted by the institution.** Parents and guardians can view the Learning Intelligence Profile and Learning Twin data held for their child.
 - **Access is role-scoped.** Teachers see what is relevant to instruction and pastoral care; parents see their own child's profile; institutions see aggregated, de-identified patterns (Section 8), not individual behavioural detail, unless authorised.
-- **Wellbeing notifications are teacher-mediated.** A flagged shift in the Wellbeing Signal reaches a teacher first, consistent with the non-diagnostic boundary in Section 10.3, so that any conversation with a parent is informed by professional judgement rather than an unmediated automated alert.
+- **Wellbeing notifications are teacher-mediated.** A flagged shift in the Wellbeing Signal reaches a teacher first, consistent with the non-diagnostic boundary in Section 10.3, so that any conversation with a parent is informed by professional judgment rather than an unmediated automated alert.
 - **The student is a participant, not merely a subject.** Where age-appropriate, students can see their own profile directly and are not the last party to learn what the adults already know.
 
 Three parties, one shared and governed picture of the learner: this is what turns a data platform into a genuine team around the child.
 
 ---
 
-## 12. Reference Architecture
+## 13. Reference Architecture
 
 ```
 Student
@@ -458,12 +551,14 @@ Smart Pen / Digital Writing Surface
 │  Assessment Engine                          │
 │  Rubric Matching · Completeness             │
 │  Plagiarism Detection · AI Scoring          │
+│  Behavioural Writing Signature Analysis     │
 └─────────────────────────────────────────────┘
   ↓
 ┌─────────────────────────────────────────────┐
 │  Teacher Review Layer                       │
 │  Reasoning · Creativity · Partial Credit    │
 │  Exceptions · Wellbeing Check-ins           │
+│  Assessment Integrity Reviews               │
 │  Final Approval                             │
 └─────────────────────────────────────────────┘
   ↓
@@ -487,7 +582,7 @@ Next Steps                (Teacher-Mediated)        Intervention Signals
 
 ---
 
-## 13. Hardware Ecosystem
+## 14. Hardware Ecosystem
 
 CLIP is hardware-agnostic by design. The platform is specified to support multiple device categories:
 
@@ -503,7 +598,7 @@ The architecture supports multiple hardware vendors. No single device category o
 
 ---
 
-## 14. Applications Beyond Examinations
+## 15. Applications Beyond Examinations
 
 CLIP is substantially larger than examination assessment. The Digital Ink capture, Learning Signal, and Learning Twin architecture applies wherever handwriting occurs in learning:
 
@@ -526,7 +621,7 @@ CLIP is substantially larger than examination assessment. The Digital Ink captur
 
 ---
 
-## 15. Sustainability
+## 16. Sustainability
 
 The operational footprint of paper-based national education systems is substantial. CLIP's adoption at scale would significantly reduce:
 
@@ -543,7 +638,7 @@ Educational modernisation and environmental sustainability are not in tension wi
 
 ---
 
-## 16. Security and Privacy
+## 17. Security and Privacy
 
 The learning data generated by CLIP is sensitive personal data about children and learners. The following principles are non-negotiable:
 
@@ -565,7 +660,7 @@ Learning intelligence must always serve the learner.
 
 ---
 
-## 17. National Education Infrastructure
+## 18. National Education Infrastructure
 
 CLIP should not be viewed as examination software.
 
@@ -584,7 +679,7 @@ CLIP has the potential to become the digital backbone for AI-native education wh
 
 ---
 
-## 18. Guiding Principles
+## 19. Guiding Principles
 
 1. **Preserve handwriting.** Handwriting is a learning mechanism, not a legacy problem.
 2. **Digitise intelligence.** Capture thinking in real time, not results after the fact.
@@ -598,16 +693,17 @@ CLIP has the potential to become the digital backbone for AI-native education wh
 10. **Reimagine education for the AI era.** Not digitising the old system, but building the new one.
 11. **Support the whole child, not only the score.** Wellbeing signals surface behavioural shifts in real time so struggle can be met with support before it compounds; they inform a teacher's judgment, they never substitute for it.
 12. **Unite the team around the child.** The student, the teacher, and the parent share one evidence-based picture of how learning is progressing, replacing separate impressions with a shared, governed record.
+13. **Strengthen assessment integrity through behavioural evidence, not surveillance.** Digital Ink lets CLIP flag writing behaviour that departs from a learner's own baseline for human review; it never accuses on its own, and it never replaces existing identity and security safeguards.
 
 ---
 
-## 19. Conclusion
+## 20. Conclusion
 
 Education does not face a choice between handwriting and technology.
 
 It faces the opportunity to combine the cognitive strengths of handwriting with the analytical power of artificial intelligence, and CLIP is the architecture for doing so.
 
-CLIP captures every pen stroke as first-class digital data. It derives thirteen Learning Signals from that data. It generates Learning Intelligence Profiles that replace marks with learning guidance. It builds a Learning Intelligence Graph representing every learner's knowledge state. It evolves a Learning Twin that understands how each individual learns. It surfaces shifts in wellbeing before they become crises, without ever presuming to diagnose them. And it unites the student, the teacher, and the parent around one shared picture of how a child learns, while keeping teachers authoritative and handwriting central.
+CLIP captures every pen stroke as first-class digital data. It derives thirteen Learning Signals from that data. It generates Learning Intelligence Profiles that replace marks with learning guidance. It builds a Learning Intelligence Graph representing every learner's knowledge state. It evolves a Learning Twin that understands how each individual learns. It surfaces shifts in wellbeing before they become crises, without ever presuming to diagnose them. It strengthens confidence in assessment integrity by preserving the behavioural evidence of the writing process itself, without ever presuming to accuse. And it unites the student, the teacher, and the parent around one shared picture of how a child learns, while keeping teachers authoritative and handwriting central.
 
 The future of education is not paperless. It is intelligence-enabled.
 

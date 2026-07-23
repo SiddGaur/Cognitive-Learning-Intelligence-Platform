@@ -2,30 +2,38 @@ cff-version: 1.2.0
 title: "Cognitive Learning Intelligence Platform (CLIP): Every Pen Stroke is a Learning Signal"
 message: "If you use or reference this work, please cite it using the metadata below."
 type: software
+version: "2.0"
 authors:
   - family-names: "Gaur"
     given-names: "Siddhartha"
-date-released: "2026-06-26"
+date-released: "2026-07-23"
 license: CC-BY-4.0
 url: "https://github.com/SiddGaur/Cognitive-Learning-Intelligence-Platform"
-doi: "10.5281/zenodo.20935638"
+doi: "10.5281/zenodo.20935637"
 repository-code: "https://github.com/SiddGaur/Cognitive-Learning-Intelligence-Platform"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.20935637"
+    description: "Zenodo concept DOI (all versions; always resolves to the latest release)"
+  - type: doi
     value: "10.5281/zenodo.20935638"
-    description: "Zenodo archive"
+    description: "Zenodo DOI for v1.0.1"
   - type: url
     value: "https://osf.io/preprints/edarxiv/w45ut"
     description: "EdArXiv preprint"
 abstract: >
   CLIP is a proposed AI-native learning platform built around Digital Ink Intelligence.
   Rather than replacing handwriting with typing, CLIP captures every pen stroke as
-  structured digital data in real time, derives twelve multidimensional Learning Signals,
+  structured digital data in real time, derives thirteen multidimensional Learning Signals,
   generates comprehensive Learning Intelligence Profiles, builds a Learning Intelligence
   Graph representing each learner's knowledge state, and develops a continuously evolving
-  Learning Twin for every learner. CLIP augments teachers through AI-assisted assessment
-  while keeping human judgment authoritative, and is designed to serve as foundational
-  educational infrastructure for schools, universities, and lifelong learning.
+  Learning Twin for every learner. Version 2.0 adds Assessment Integrity Intelligence, a
+  third pillar showing how the same Digital Ink data can strengthen confidence in the
+  integrity of digital assessments as generative AI reshapes the risks facing examinations,
+  without replacing existing exam security measures. CLIP augments teachers through
+  AI-assisted assessment while keeping human judgment authoritative, and is designed to
+  serve as foundational educational infrastructure for schools, universities, and lifelong
+  learning.
 keywords:
   - education technology
   - digital ink
@@ -39,3 +47,5 @@ keywords:
   - cognitive learning
   - edtech
   - human-AI collaboration
+  - assessment integrity
+  - student wellbeing
